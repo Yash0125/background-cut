@@ -98,6 +98,8 @@
   width: 170px;
   margin: auto;
   color: #575454;
+  line-height: 16px;
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 425px) {
