@@ -1,0 +1,137 @@
+.Fileupload-container {
+  width: 23.875rem;
+  height: 24.5rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.fileupload-top-container {
+  position: relative;
+  margin-top: 20px;
+  height: 70px;
+}
+
+.fileupload-top-centered {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 250px;
+  height: 50px;
+  background-color: #fcfcfd;
+  border: 1px solid #e8e8e8;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.fileupload-top-right-corner {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  margin-left: 20px;
+}
+
+.navchild {
+  padding: 10px;
+  border-radius: 25px;
+  height: 20px;
+  width: 100px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navchild h3 {
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.navchild.active {
+  background-color: black;
+  color: white;
+}
+
+.icon-container {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  border-radius: 25px;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+.fileupload-bottom-container {
+  background-color: #fcfcfd;
+  border-top: 1px solid #e8e8e8;
+  height: 286px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-drop-container {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  width: 240px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.drag-drop-text {
+  width: 170px;
+  margin: auto;
+  color: #575454;
+}
+
+@media only screen and (max-width: 425px) {
+  .fileupload-top-centered {
+    width: 200px;
+  }
+  .fileupload-top-right-corner {
+    top: 5px;
+  }
+
+  .navchild {
+    width: 80px;
+  }
+  .navchild h3 {
+    line-height: 14px;
+    font-size: 12px;
+  }
+
+  .icon-container {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .drag-drop-container {
+    width: 200px;
+    height: 120px;
+  }
+
+  .drag-drop-text {
+    width: 120px;
+  }
+}
